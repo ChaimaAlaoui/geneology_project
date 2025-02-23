@@ -1,6 +1,16 @@
 # Système de Modification de Généalogie
 
-Ce projet vise à fournir un système de modification de généalogie où les utilisateurs peuvent proposer des changements sur des données de personnes ou des relations, qui seront votés par d'autres utilisateurs avant d'être validés. Le système suit toutes les modifications et les approbations, garantissant ainsi transparence et exactitude.
+### Création d'un Utilisateur pour la Connexion
+
+Pour créer un utilisateur pour la connexion, exécutez la commande Artisan suivante pour peupler la base de données :
+
+```bash
+php artisan db:seed --class=UsersTableSeeder
+Cela va créer un utilisateur admin avec les identifiants suivants :
+
+Email : admin@admin.com
+Mot de passe : 123
+Vous pourrez ensuite vous connecter en utilisant ces identifiants.
 
 ## Structure de la Base de Données
 
