@@ -4,8 +4,9 @@
 
 Pour créer un utilisateur pour la connexion, exécutez la commande Artisan suivante pour peupler la base de données :
 
-```bash
-php artisan db:seed --class=UsersTableSeeder
+__php artisan db:seed --class=UsersTableSeeder__
+
+
 Cela va créer un utilisateur admin avec les identifiants suivants :
 
 Email : admin@admin.com
@@ -36,5 +37,6 @@ Les données évoluent au fil du temps de la manière suivante :
    - Chaque modification est horodatée et enregistrée dans les colonnes `created_at` et `updated_at` pour garantir une traçabilité complète. Cela permet au système de suivre l'évolution de chaque modification et aux utilisateurs de comprendre quand et pourquoi les changements ont été effectués.
 
 Cette structure garantit que le processus de modification est transparent, vérifiable et traçable, tout en permettant aux utilisateurs de proposer, voter et valider des changements de manière collaborative et contrôlée.
+
 
 
